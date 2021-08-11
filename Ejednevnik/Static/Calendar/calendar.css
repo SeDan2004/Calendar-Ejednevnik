@@ -1,0 +1,107 @@
+.NameDay {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: greenyellow;
+    width: 85%;
+    margin-top: 5rem;
+    font-family: cursive;
+    background-color: black;
+    box-shadow: greenyellow 0px 0px 15px;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 7rem;
+    user-select: none;
+}
+
+.slider-button {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 3rem;
+    margin-left: -0.8rem;
+    outline: none;
+}
+
+.button_style {
+
+  background-color: purple;
+  font-family: cursive;
+  color: aqua;
+  font-size: 1.5rem;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px aqua;
+  margin-left: -2.5rem;
+
+}
+
+.NextMonth {
+  margin-left: 2rem;
+}
+
+.Calendar {
+    overflow: hidden;
+    height: 20rem;
+    width: 84.7%;
+    margin-left: 7.2rem;
+    margin-top: 1rem;
+}
+
+.NumDay {
+
+  background-color: black;
+  color: red;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px red;
+  width: 50px;
+  height: 40px;
+  margin-top: 0.35rem;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.SlideCalendar {
+  display: grid;
+  position: relative;
+  height: 20.1rem;
+}
+
+.TaskCloud {
+
+  position: absolute;
+  background-color: rgb(2, 2, 87);
+  font-family: cursive;
+  width: 350px;
+  border-radius: 25px;
+  text-align: center;
+  height: 70px;
+  margin-top: -10rem;
+  margin-left: -23rem;
+  opacity: 0%;
+  color: lime;
+  /*box-shadow: 0px 0px 35px lime;*/
+
+}
+
+.TaskMessage {
+
+  margin-top: 0.5rem;
+
+}
+
+.TaskLnk {
+  color: lime;
+}
+
+.Triangle {
+
+  border: 30px solid transparent;
+  border-top: 30px solid rgb(2, 2, 87);
+  border-right: 30px solid rgb(2, 2, 87);
+  margin-top: -0.3rem;
+  margin-left: 12rem;
+  width: 0;
+  height: 0;
+
+}

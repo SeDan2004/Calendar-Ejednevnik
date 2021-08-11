@@ -1,0 +1,90 @@
+.TaskForm {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    position: absolute;
+    height: 18rem;
+    background-color: rgb(185, 185, 185);
+    transition: 1s;
+    top: 10rem;
+    visibility: hidden;
+    left: 23rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px orange;
+    opacity: 0%;
+    
+}
+
+.AddTaskTxt {
+
+  color: darkslateblue;
+  font-size: 2rem;
+  font-family: cursive;
+  margin-top: 1rem;
+  margin-left: 1rem;
+
+}
+
+.InpTxt {
+
+  margin-left: 3rem;
+  margin-top: 0.5rem;
+  font-family: cursive;
+  color: darkslateblue;
+  width: 86%;
+  font-size: 2rem;
+  outline: none;
+  background: none;
+  border-style: none;
+  border-bottom: 2px solid darkslateblue;
+
+}
+
+.InpTxt::placeholder {
+    text-align: center;
+}
+
+.ClockTxt {
+
+  border-style: none;
+  background: none;
+  outline: none;
+  font-size: 2rem;
+  font-family: cursive;
+  margin-top: 0.5rem;
+  border-bottom: 2px solid darkslateblue;
+  width: 6rem;
+  text-align: center;
+  margin-left: 33.8rem;
+  color: darkslateblue;
+
+}
+
+.CloseTaskForm {
+
+  color: red;
+  font-size: 3rem;
+  transition: transform 0.5s;
+  margin-left: 1.5rem;
+  cursor: pointer;
+
+}
+
+.CloseTaskForm:hover {
+    transform: rotate(360deg);
+}
+
+.AcceptButton {
+
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    width: 11rem;
+    margin-top: 3rem;
+    color: darkslateblue;
+    background-color: orange;
+    font-family: cursive;
+    font-weight: 800;
+    box-shadow: 0px 0px 35px navy;
+    border-radius: 8px;
+
+}
